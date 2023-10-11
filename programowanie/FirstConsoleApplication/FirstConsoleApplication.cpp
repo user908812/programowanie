@@ -3,9 +3,24 @@
 
 #include <iostream>
 
-int main()
-{
-    std::cout << "Hello World!\n";
+/*
+
+   Ctrl + D = linijka w dol
+   Ctrl + K + D = formatowanie kodu
+   Ctrl + K + C = wykomendowanie kodu,  Ctrl + K + U = usuwanie odkomendowania
+   \n = nowa linijka
+   \t = odstep
+
+*/
+
+int main() {
+	std::cout << "Hello World!\n";
+	std::cout << "test\n";
+	std::cout << "te\tst 2\n";
+	std::cout << 'D';
+	std::cout << '\n';
+	std::cout << 69420 + 1 << "\n";   //Daj¹c drugi raz << mozemy w 1 linii pisac kilka slow
+	std::cout << 12.5 << "\n";
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
