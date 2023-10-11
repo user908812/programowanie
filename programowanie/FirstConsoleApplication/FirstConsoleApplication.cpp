@@ -10,6 +10,7 @@
    Ctrl + K + C = wykomendowanie kodu,  Ctrl + K + U = usuwanie odkomendowania
    \n = nowa linijka
    \t = odstep
+   aby wypchnac na GitHub trzeba wejsc w git changes po prawej na gorze napisac cos w message i wybrac opcje commit all and push zamiast commit all
 
 */
 
