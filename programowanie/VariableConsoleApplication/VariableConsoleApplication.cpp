@@ -71,7 +71,7 @@ void metry()
 
 void pole() 
 {
-	//Napisz program, który poprosi u¿ytkownika o podanie d³ugoœci boku a i b prostok¹ta, a nastêpnie obliczy i wyœwietli pole prostok¹ta.
+	//Napisz program, który poprosi u¿ytkownika o podanie d³ugoœci boku a i b prostok¹ta, a nastêpnie obliczy i wyœwietli pole prostok¹ta. /  jsbhfisi
 	float bok1, bok2;	
 	std::cout << "Podaj bok a \n";
 	std::cin >> bok1;	
