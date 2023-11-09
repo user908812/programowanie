@@ -8,27 +8,27 @@ prawy przycisk myszy, set as startup project
                                                                        * ZADANIA *
 
 
-* Napisz program, który poprosi u¿ytkownika o podanie promienia ko³a i obliczy pole tego ko³a, wyœwietlaj¹c wynik.
+* Napisz program, ktÃ³ry poprosi uÂ¿ytkownika o podanie promienia koÂ³a i obliczy pole tego koÂ³a, wyÅ“wietlajÂ¹c wynik.
 
-* Napisz program, który poprosi u¿ytkownika o podanie d³ugoœci podstawy a, podstawy b i wysokoœci h trapezu, a nastêpnie obliczy pole tego trapezu, wyœwietlaj¹c wynik.
+* Napisz program, ktÃ³ry poprosi uÂ¿ytkownika o podanie dÂ³ugoÅ“ci podstawy a, podstawy b i wysokoÅ“ci h trapezu, a nastÃªpnie obliczy pole tego trapezu, wyÅ“wietlajÂ¹c wynik.
 
-* Napisz program, który poprosi u¿ytkownika o podanie d³ugoœci krawêdzi szeœcianu i obliczy jego objêtoœæ, wyœwietlaj¹c wynik.
+* Napisz program, ktÃ³ry poprosi uÂ¿ytkownika o podanie dÂ³ugoÅ“ci krawÃªdzi szeÅ“cianu i obliczy jego objÃªtoÅ“Ã¦, wyÅ“wietlajÂ¹c wynik.
 
-* Napisz program, który poprosi u¿ytkownika o podanie temperatury w stopniach Celsiusza, a nastêpnie przeliczy j¹ na stopnie Fahrenheita i wyœwietli wynik.
+* Napisz program, ktÃ³ry poprosi uÂ¿ytkownika o podanie temperatury w stopniach Celsiusza, a nastÃªpnie przeliczy jÂ¹ na stopnie Fahrenheita i wyÅ“wietli wynik.
 
-* Napisz program, który konwertuje wprowadzon¹ kwotê w jednej walucie na inn¹, korzystaj¹c z okreœlonego kursu wymiany.
+* Napisz program, ktÃ³ry konwertuje wprowadzonÂ¹ kwotÃª w jednej walucie na innÂ¹, korzystajÂ¹c z okreÅ“lonego kursu wymiany.
 
-* Napisz program, który poprosi u¿ytkownika o podanie dwóch liczb (a, b) i obliczy œredni¹ arytmetyczn¹ tych liczb. Nastêpnie wyœwietli wynik.
+* Napisz program, ktÃ³ry poprosi uÂ¿ytkownika o podanie dwÃ³ch liczb (a, b) i obliczy Å“redniÂ¹ arytmetycznÂ¹ tych liczb. NastÃªpnie wyÅ“wietli wynik.
 
-* Napisz program, który poprosi u¿ytkownika o podanie trzech liczb (a, b, c) i obliczy œredni¹ arytmetyczn¹ tych liczb. Nastêpnie wyœwietli wynik.
+* Napisz program, ktÃ³ry poprosi uÂ¿ytkownika o podanie trzech liczb (a, b, c) i obliczy Å“redniÂ¹ arytmetycznÂ¹ tych liczb. NastÃªpnie wyÅ“wietli wynik.
 
-* Program obliczaj¹cy œredni¹ wa¿on¹ trzech liczb z podanymi odpowiednimi wagami w1, w2 i w3.
+* Program obliczajÂ¹cy Å“redniÂ¹ waÂ¿onÂ¹ trzech liczb z podanymi odpowiednimi wagami w1, w2 i w3.
 
-* Napisz program, który poprosi u¿ytkownika o podanie dwóch liczb ca³kowitych. Nastêpnie wykona operacje (+, -, *, /) i wyœwietli wyniki.
+* Napisz program, ktÃ³ry poprosi uÂ¿ytkownika o podanie dwÃ³ch liczb caÂ³kowitych. NastÃªpnie wykona operacje (+, -, *, /) i wyÅ“wietli wyniki.
 
-* Napisz program, który poprosi u¿ytkownika o podanie liczby sekund i przeliczy je na godziny i minuty, wyœwietlaj¹c wynik.
+* Napisz program, ktÃ³ry poprosi uÂ¿ytkownika o podanie liczby sekund i przeliczy je na godziny i minuty, wyÅ“wietlajÂ¹c wynik.
 
-* Napisz program, który poprosi u¿ytkownika o podanie wspó³rzêdnych (x1, y1) i (x2, y2) dwóch punktów w uk³adzie kartezjañskim, a nastêpnie obliczy odleg³oœæ miêdzy nimi, wyœwietlaj¹c wynik.
+* Napisz program, ktÃ³ry poprosi uÂ¿ytkownika o podanie wspÃ³Â³rzÃªdnych (x1, y1) i (x2, y2) dwÃ³ch punktÃ³w w ukÂ³adzie kartezjaÃ±skim, a nastÃªpnie obliczy odlegÂ³oÅ“Ã¦ miÃªdzy nimi, wyÅ“wietlajÂ¹c wynik.
 
 
 */
@@ -36,14 +36,6 @@ prawy przycisk myszy, set as startup project
 
 
 #include <iostream>
-
-int main() {
-	setlocale(LC_CTYPE, "polish");
-	//wiek();
-	//metry();
-	//pole();
-	trojkat();
-}
 
 void wiek() 
 {
@@ -71,7 +63,7 @@ void metry()
 
 void pole() 
 {
-	//Napisz program, który poprosi u¿ytkownika o podanie d³ugoœci boku a i b prostok¹ta, a nastêpnie obliczy i wyœwietli pole prostok¹ta. /  jsbhfisi
+	//Napisz program, ktÃ³ry poprosi uÂ¿ytkownika o podanie dÂ³ugoÅ“ci boku a i b prostokÂ¹ta, a nastÃªpnie obliczy i wyÅ“wietli pole prostokÂ¹ta. /  jsbhfisi
 	float bok1, bok2;	
 	std::cout << "Podaj bok a \n";
 	std::cin >> bok1;	
@@ -80,13 +72,13 @@ void pole()
 	std::cout << "Pole prostokata wynosi: " << bok1 * bok2;
 }
 
-int trojkat()
+void trojkat()
 {
-	//Napisz program, który poprosi u¿ytkownika o podanie d³ugoœci podstawy i wysokoœci trójk¹ta, a nastêpnie obliczy pole tego trójk¹ta, wyœwietlaj¹c wynik.
+	//Napisz program, ktÃ³ry poprosi uÂ¿ytkownika o podanie dÂ³ugoÅ“ci podstawy i wysokoÅ“ci trÃ³jkÂ¹ta, a nastÃªpnie obliczy pole tego trÃ³jkÂ¹ta, wyÅ“wietlajÂ¹c wynik.
 	float a, h;
-	std::cout << "Podaj dlugosc podstawy trojkata";
+	std::cout << "Podaj dlugosc podstawy trojkata \n";
 	std::cin >> a;
-	std::cout << "Podaj wysokosc trojkata";
+	std::cout << "Podaj wysokosc trojkata \n";
 	std::cin >> h;
 	std::cout << "Pole trojkata wynosi: " << a / 2 * h;
 }
@@ -105,19 +97,25 @@ int trojkat()
 
 
 
-
+int main() {
+	setlocale(LC_CTYPE, "polish");
+	//wiek();
+	//metry();
+	//pole();
+	trojkat();
+}
 
 
 /*
 
- Algorytm -  skoñczony zbiór instrukcji realizuj¹cy postawione przed nim zadanie.
- Kolejnoœæ instrukcji w zbiorze jest okreœlona
+ Algorytm -  skoÃ±czony zbiÃ³r instrukcji realizujÂ¹cy postawione przed nim zadanie.
+ KolejnoÅ“Ã¦ instrukcji w zbiorze jest okreÅ“lona
  Sposoby zapisu:
 
  - W punktach
- - Opis s³owny
- - Jêzyk programowania lub pseudokod
- - Zbiór rysunków
+ - Opis sÂ³owny
+ - JÃªzyk programowania lub pseudokod
+ - ZbiÃ³r rysunkÃ³w
  - Schemat blokowy
 
  Zmienna - jest to pewien obszar w pamieci, sluzacy do przechowywania danych. Te dane mozna modyfikowac.
